@@ -1,0 +1,15 @@
+:root{--vox-purple:#8B5CF6;--vox-cyan:#06D6FF;--vox-ink:#080B16;--vox-surface:#1A1B2E;--vox-pink:#EC4899}
+body{font-family:'Plus Jakarta Sans',sans-serif!important}
+.btn-gradient,.btn-2{background:linear-gradient(110deg,var(--vox-purple),#6D45D6)!important;border-color:transparent!important}
+a:hover{color:var(--vox-purple)}
+.vox-auth-brand{display:flex;justify-content:center;margin:0 0 24px}
+.vox-auth-brand>a{display:flex;align-items:center;gap:12px;color:var(--vox-ink);text-decoration:none}
+.vox-auth-brand strong{display:block;font-size:25px;font-weight:800;letter-spacing:.1em;line-height:1.05}
+.vox-auth-brand small{display:block;color:#77778d;font-size:9px;font-weight:700;letter-spacing:.12em;margin-top:5px}
+.vox-mark-image{display:block;width:48px;height:48px;border-radius:15px;box-shadow:0 8px 24px #8B5CF644}
+.site-logo .vox-mark-image{margin:auto}
+.vox-google-button{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;min-height:48px;margin:0 0 16px;border:1px solid #deddeb;border-radius:8px;color:#202033!important;background:#fff;font-weight:700;text-decoration:none!important;transition:border-color .15s,box-shadow .15s}
+.vox-google-button:hover{border-color:var(--vox-purple);box-shadow:0 5px 18px #8B5CF622}
+.vox-google-g{font-family:Arial,sans-serif;font-size:20px;font-weight:700;color:#4285F4}
+.vox-auth-divider{display:flex;align-items:center;gap:12px;margin:0 0 18px;color:#85859a;font-size:12px}
+.vox-auth-divider:before,.vox-auth-divider:after{content:'';height:1px;flex:1;background:#e8e7ef}
